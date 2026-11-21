@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "source": {
+    "project": "vatglasses-data",
+    "repository": "https://github.com/vatglasses-project/vatglasses-data",
+    "base_url": "https://raw.githubusercontent.com/vatglasses-project/vatglasses-data/refs/heads/main/data/"
+  },
+  "countries": {
+    "EG": {
+      "reference": "eg.json"
+    },
+    "EI": {
+      "reference": "ei.json"
+    }
+    "HB-HR-HT": {
+      "reference": "hb-hr-ht.json"
+    }
+  }
+}
