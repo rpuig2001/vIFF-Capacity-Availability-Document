@@ -80,6 +80,7 @@
     "OT": { "reference": [ "ot.json" ] },
     "UI": { "reference": [ "uiii.json" ] },
     "UN": { "reference": [ "unkl.json", "unnt.json" ] },
-    "VH-VM": { "reference": [ "vh-vm.json" ] }
+    "VH-VM": { "reference": [ "vh-vm.json" ] },
+    "VT": { "reference": [ "vt.json" ] }
   }
 }
