@@ -9,6 +9,7 @@
     "EI": { "reference": [ "ei/airspace.json" ] },
     "BI-BG": { "reference": [ "bi-bg.json" ] },
     "BK-LA-LD-LJ-LQ-LW-LY": { "reference": [ "bk-la-ld-lj-lq-lw-ly.json" ] },
+    "CY-CZ": { "reference": [ "zqm-zqx/airspace.json", "zul/airspace.json", "zyz/airspace.json", "zwg.json", "zeg.json", "zvr.json" ] },
     "DA": { "reference": [ "da.json" ] },
     "DB-DG-DX": { "reference": [ "db-dg-dx.json" ] },
     "DF-DR": { "reference": [ "df-dr.json" ] },
