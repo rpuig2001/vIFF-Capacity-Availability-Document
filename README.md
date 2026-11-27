@@ -18,7 +18,7 @@ All contributions from vACC staff are welcome!
 <br>
 
 # Which Is The Format?
-volumes.geojson:
+airblocks.geojson (NOT REQUIRED IF USING VATGLASSES):
   - Here volumes are included to later use them as sectors. To pass the vatglasses data into the required form, it is possible by using this converter: [VATGLASSES-CDM-CONVERTER](https://cdm.vatsimspain.es/vatglasses-to-cdm)
   - MinFL, MaxFL and capacity are a must to have correctly defined airspaces.
   - Lateral limits should be defined as Multipolygon (Like Vatspy data).
@@ -35,14 +35,7 @@ procedures.txt
     - If pilot does not file a SID/STAR, the first in the list is chosen (order is by given in letters).
   - If any can be selected, then direct path will be created.
 
-profile_restrictions.txt (NOT USED ANYMORE. Maintenance or PTR in vIFF Dashboard)
-  - Format ``<ICAO_DEP>:<ICAO_DEST>:<WPT>:<FL>`` example: ``LPPT,LPFR:*:IMOBA:200`` or ``*:EDDM:SUNIS/lat,lon/LIMRA:200``
-  - ICAO_DEP: dep airport (or list of airports "," seperated), "*" to select all dep airports (Ex. LPPT,LPCS).
-  - ICAO_DEST: dest airport (or list of airports "," seperated), "*" to select all dest airports (Ex. LEBL).
-  - WPT: Waypoint to be level at.
-     - Decimal coordinates can be used and including the point to be included in route for the condition to be valid. Format: **WPTbefore/lat,lon/WPTafter** or **WPTbefore/lat,lon** or **lat,lon/WPTafter** Example: ``SUNIS/47.6676,14.8851/MORED`` or ``SUNIS/47.6676,14.8851`` or ``47.6676,14.8851/MORED``.
-     - Multiple can be included ``|`` seperated: Example: ``SUNIS/47.6676,14.8851/LIMRA|LIMRA/47.70,14.90/XANEX`` or ``AKINI|TURBU|XOMBA`` or mixed ``ALOSO/50.3533,11.5725|BAMKI/50.3725,11.2288|UNAVI|RELKO/50.3533,11.5725``.
-     - FL: numeric value indicating the FL (Ex. 200).
+profile_restrictions.txt (NOT REQUIRED ANYMORE. Maintenance or PTR in vIFF Dashboard)
 
   Remark: it will only be respected, if RFL is at or above.
   Remark: This will override SID/STAR ALT restrictions.
